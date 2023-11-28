@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">Merchandise Registration</div>
+    <form id="form" action="#" method="get">
+    <div id="box">
+    <div class="form-control">
+    <label for="name" class="info">NAME</label>
+    <br>
+    <input type="text" id="name" class="input" name="name" placeholder="Enter your full name" />
+    <small></small>
+    </div>
+    <br>
+    <div class="form-control">
+    <label for="mail" class="info">E-MAIL</label>
+    <br>
+    <input type="text" id="mail" class="input" name="mail" placeholder="Enter your bits email id"/>
+    <small></small>
+    </div>
+    <br>
+    <div class="form-control">
+    <label for="Phone" class="info">Phone Number</label>
+    <br>
+    <input type="tel" id="number" class="input" name="mail" placeholder="Enter your 10 digit mobile number" minlength="10" maxlength="10"/>
+    <small></small>
+    </div>
+    <br>
+    <div class="form-control">
+    <label for="bits_id" class="info">BITS-ID</label>
+    <br>
+    <input type="text" id="id" class="input" name="bits_id" placeholder="Enter your bits-id" />
+    <small></small>
+    </div>
+    <br>
+    <div class="dropdown">
+    <label for="hotel">Choose your hostel:</label>
+    <select name="hostel" id="hostel">
+    <option value="Choose">Choose Your Hostel</option>
+    <option value="Bhagirath">Bhagirath</option>
+    <option value="Budh">Budh</option>
+    <option value="Gandhi">Gandhi</option>
+    <option value="Krishna">Krishna</option>
+    <option value="Malviya">Malviya</option>
+    <option value="Ram">Ram</option>
+    <option value="Malviya Studio Apartment">Malviya Studio Apartment</option>
+    <option value="Ashok">Ashok</option>
+    <option value="Rana Pratap">Rana Pratap</option>
+    <option value="Shankar">Shankar</option>
+    <option value="Sir C.V Raman">Sir C.V Raman</option>
+    <option value="Srinivas Ramanujam">Srinivas Ramanujam</option>
+    <option value="Vyas">Vyas</option>
+    <option value="Vishwakarma">Vishwakarma</option>
+    <option value="Meera">Meera</option>
+    <option value="Reaserchers Hostel">Reaserchers Hostel</option>
+    </select>
+    </div>
+    <div>
+    <div class="rbtn">
+    <p style="display: inline-block;">Choose size for your T-Shirt: </p>
+    <input type="radio" name="size"/>
+    <label for="merch">Small</label>
+    <input type="radio" name="size"/>
+    <label for="merch">Medium</label>
+    <input type="radio" name="size"/>
+    <label for="merch">Large</label>
+    <input type="radio" name="size"/>
+    <label for="merch">X-Large</label>
+    </div>
+    </div>
+    <div>
+    <div class="checkbox">
+    <label for="t&c" style="margin-left: 21.4px;">Kindly Check to Agree to the terms and conditions.</label>
+    <input type="checkbox" id="checkbox">
+    <br>
+    <small></small>
+    </div>
+    </div>
+    <br>
+    <button id="Submit">Submit</button>
+    <br>
+    <button id="reset">Reset</button>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
